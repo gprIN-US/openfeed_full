@@ -1,11 +1,11 @@
 # OpenFeed  End-to-End Recommendation & Evaluation System
 
 An **end-to-end ML + Data Engineering pipeline** that demonstrates:
-- ✅ Synthetic data generation & Kafka streaming  
-- ✅ Model training & experiment tracking with MLflow  
-- ✅ FastAPI microservice for real-time serving  
-- ✅ Monitoring with Prometheus + Grafana  
-- ✅ Counterfactual evaluation (IPS, SNIPS, DR)  
+- Synthetic data generation & Kafka streaming  
+-  Model training & experiment tracking with MLflow  
+-  FastAPI microservice for real-time serving  
+-  Monitoring with Prometheus + Grafana  
+-  Counterfactual evaluation (IPS, SNIPS, DR)  
 
 This project shows **real-world Data Science + Data Engineering + MLOps skills** in one package.
 
@@ -50,10 +50,13 @@ Evaluation Scripts
 git clone https://github.com/gprIN-US/openfeed_full.git
 cd openfeed_full
 2️⃣ Start the stack
+```bash
 make up
 3️⃣ Create Kafka topic
+```bash
 make topics
 4️⃣ Generate events
+```bash
 make gen
 5️⃣ Consume events
 make consume
