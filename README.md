@@ -50,13 +50,10 @@ Evaluation Scripts
 git clone https://github.com/gprIN-US/openfeed_full.git
 cd openfeed_full
 2️⃣ Start the stack
-```bash
 make up
 3️⃣ Create Kafka topic
-```bash
 make topics
 4️⃣ Generate events
-```bash
 make gen
 5️⃣ Consume events
 make consume
@@ -75,7 +72,11 @@ curl -X POST http://localhost:8091/rank -H "Content-Type: application/json" -d '
 MLflow → http://localhost:5001
 Grafana → http://localhost:3001 (login: admin/admin)
 Prometheus → http://localhost:9097
- Why this project matters
+
+
+
+
+## Why this project matters
 This project demonstrates end-to-end ownership of a modern ML system:
 Data Pipelines → Kafka, Redis, MinIO
 MLOps → MLflow, FastAPI serving
